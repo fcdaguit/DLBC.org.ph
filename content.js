@@ -132,13 +132,6 @@ const SITE_CONTENT = {
   // ======================================================================
   events: [
     {
-      date: "2026-07-12",
-      title: "Barangay Libas Coastal Clean-Up & Outreach",
-      time: "7:00 AM",
-      location: "Meet at the chapel grounds",
-      tag: "Outreach"
-    },
-    {
       date: "2026-07-19",
       title: "Youth Fellowship Night",
       time: "6:30 PM",
