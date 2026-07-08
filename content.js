@@ -155,3 +155,31 @@ const SITE_CONTENT = {
   ]
 
 };
+async function fetchDailyVerse() {
+  try {
+    // Example: rotate verses by day of month
+    const verses = ["John+3:16", "Psalm+23:1", "Philippians+4:13"];
+    const day = new Date().getDate();
+    const verseRef = verses[day % verses.length];
+
+    // Fetch from Bible API
+    const response = await fetch(`https://bible-api.com/${verseRef}`);
+    const data = await response.json();
+
+    // Display in your site
+    const container = document.getElementById("daily-devotion");
+    if (container) {
+      container.innerHTML = `
+        <h3>Daily Verse</h3>
+        <p><strong>${data.reference}</strong></p>
+        <p>${data.text}</p>
+      `;
+    }
+  } catch (error) {
+    console.error("Error fetching verse:", error);
+  }
+}
+
+// Run on page load
+document.addEventListener("DOMContentLoaded", fetchDailyVerse);
+
