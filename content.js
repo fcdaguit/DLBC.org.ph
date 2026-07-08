@@ -110,7 +110,7 @@ const SITE_CONTENT = {
       pastor: "Pastor [Rogelio Jordan]",
       date: "2026-06-28",
       description: "God is our refuge and strength, a very present help in trouble. This week we looked at what it means to stay planted when the storms of life try to pull us loose — and why community, like a mangrove forest, is how we survive them together.",
-      videoUrl: "",
+      videoUrl: "https://www.facebook.com/reel/860849340012466",
       notesUrl: ""
     }
   ],
