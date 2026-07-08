@@ -107,7 +107,7 @@ const SITE_CONTENT = {
       series: "Anchored: Faith in Every Tide · Part 3",
       title: "Holding Fast When the Water Rises",
       scripture: "Psalm 46:1-11",
-      pastor: "Pastor [Pastor's Name]",
+      pastor: "Pastor [Rogelio Jordan]",
       date: "2026-06-28",
       description: "God is our refuge and strength, a very present help in trouble. This week we looked at what it means to stay planted when the storms of life try to pull us loose — and why community, like a mangrove forest, is how we survive them together.",
       videoUrl: "",
